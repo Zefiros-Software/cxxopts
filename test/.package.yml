@@ -1,0 +1,7 @@
+libraries:
+  - name: Zefiros-Software/cxxopts
+    version: '@head'
+    definition: ../
+modules:
+  - name: Zefiros-Software/Defaults
+    version: '@head'

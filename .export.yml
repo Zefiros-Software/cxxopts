@@ -1,0 +1,13 @@
+%YAML 1.1
+---
+version: '>=0.0.0 || @head'
+export: |
+
+    project "cxxopts"
+        kind "StaticLib"
+
+        zpm.export [[
+            includedirs "include"
+            cppdialect "C++11"
+        ]]
+...
